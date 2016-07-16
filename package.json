@@ -1,0 +1,33 @@
+{
+  "name": "hdu-60",
+  "version": "1.0.0",
+  "description": "hdu 60 website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/laoqiren/hdu-60-website.git"
+  },
+  "keywords": [
+    "hdu"
+  ],
+  "author": "hdu-student",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laoqiren/hdu-60-website/issues"
+  },
+  "homepage": "https://github.com/laoqiren/hdu-60-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-watch": "^4.3.8",
+    "node-sass": "^3.8.0"
+  }
+}
