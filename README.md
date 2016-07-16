@@ -25,7 +25,7 @@ webpack配置文件，需要的可以使用
 babel配置项， 可以用webpack loader代替
 
 ### 文件目录结构:
-
+	---bower_components //对于不熟悉模块的同学，这里有需要引入的文件，如jquery,bootstrap等包
 	---dist //最终上线文件
 		---componets //组件文件夹
 		---sub //子页目录
