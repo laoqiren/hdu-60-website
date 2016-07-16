@@ -51,3 +51,18 @@ babel配置项， 可以用webpack loader代替
 	---tmpl //模板文件
 	---images //图片文件
 	---index.html
+
+### 可复用组件说明
+
+#### 1.组件位于dist/components目录，每个组件包括自己的资源文件，会模块化，组件化的同学可以直接复用。
+#### 2.每个页面，都有一个相同的顶部导航和底部部分，对于不会用的同学，我会写好组件最终打包bundle文件，需要每个有这两部分的页面再html 的body顶部包含：
+
+	<div id='header'></div>
+
+在底部包含:
+
+	<div id='footer'></div>
+
+然后引入最终的bundle文件：
+
+		dist/components/app.bundle.js
